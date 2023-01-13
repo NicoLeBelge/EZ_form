@@ -1,0 +1,20 @@
+{
+    "metadata" :
+    {
+        "action":"testform-action.php",
+        "submit_value":"valider",
+        "table_name":"formitable"
+    },
+    
+    "entries":
+    [
+        {
+            "type":"text",
+            "dbfieldname":"lastname"
+        },
+        {
+            "type":"text",
+            "dbfieldname":"firstname"
+        }
+    ]
+}

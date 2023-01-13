@@ -1,0 +1,42 @@
+{
+    "action":"testform-action.php",
+    "submit_value":"valider",
+    "table_name":"formitable",
+    "entries":[
+    {
+        "type":"text",
+        "id":"lastname",
+        "label":"Nom",
+        "nb_br_after":1,
+        "dbfieldname":"lastname"
+    },
+    {
+        "type":"text",
+        "id":"firstname",
+        "label":"Prénom (sans BR)",
+        "nb_br_after":2,
+        "dbfieldname":"firstname"
+    },
+    {
+        "type":"date",
+        "id":"birthdate",
+        "label":"date de naissance (sans BR)",
+        "br_after_label":0,
+        "nb_br_after":1,
+        "dbfieldname":"birthdate"
+    },
+    {
+        "type":"email",
+        "id":"email",
+        "label":"adresse e-mail",
+        "nb_br_after":2,
+        "dbfieldname":"email"
+    },
+    {
+        "type":"number",
+        "id":"age",
+        "label":"âge",
+        "dbfieldname":"age"
+    }
+    ]
+}
